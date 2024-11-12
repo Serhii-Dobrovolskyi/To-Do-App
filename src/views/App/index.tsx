@@ -10,7 +10,6 @@ export const App: React.FC = () => {
   const createTask = useToDoStore((state) => state.createTask);
   const updateTask = useToDoStore((state) => state.updateTask);
   const removeTask = useToDoStore((state) => state.removeTask);
-  console.log(tasks)
   return (
     <article className={styles.article}>
       <h1 className={styles.articleTitle}>To Do App</h1>
